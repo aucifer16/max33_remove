@@ -6,13 +6,19 @@ This project utilizes Artificial Intelligence (AI) to analyze the meaning of use
 
 You need two things for this to work:
 
-
 1. To setup an OAuth client id in the [Google Developer Console](https://console.cloud.google.com/apis/credentials).
     * You will need to create a project, but you can use an account other than the one you wish to delete comments from if you wish.
     * You will need to configure an OAuth consent screen, just filling in the required stuff should be fine.
     * You will need to add yourself and anyone else that will be using this app as test users.
     * Once you have finished creating the OAuth client config, dowload the secret file, name it `creds.json` and place it in the top directory of the repo.
     * Once the OAuth client config is done enable the [Youtube Data API V3](https://console.cloud.google.com/apis/library/youtube.googleapis.com).
+    * How to Create client_secret.json
+2.. Go to Google Cloud Console
+    *Create a new project
+    *Enable YouTube Data API v3
+    *Go to OAuth consent screen and configure it
+    *Go to Credentials > Create Credentials > OAuth client ID
+    *Select Desktop App and download the client_secret.json file
 ## Getting Started
 
 ### Installation
