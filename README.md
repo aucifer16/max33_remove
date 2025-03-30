@@ -38,6 +38,15 @@ For the gradio demo, an additional `pip install -r requirements-demo.txt` is req
  ```shell
   $ pip install -r requirements.txt
  ```
+##📁 Required Files
+| File | Description | 
+|----------|----------|
+| app.py    | Main Streamlit app    | 
+| requirements.txt   | Python package list  |
+| client_secret.json    | OAuth 2.0 credentials from Google Cloud   | 
+| sentiment_model.pkl   | Trained sentiment classification model  |
+| tfidf_vectorizer.pkl	    | TF-IDF vectorizer used with the model   | 
+| requirements.txt   | Python package list  |
 ## ▶️ Running the App
  ```shell
  .\runapp.bat
