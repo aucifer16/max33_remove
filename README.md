@@ -66,7 +66,7 @@ Comments marked as Negative will be deleted automatically once detected
 This app is intended for educational/research use
 ## 👨‍💻 Author & Credits
 
-Developed by [Sittiphong Pornudomthap]([https://github.com/your-usernam](https://github.com/aucifer16/)  
+Developed by [Sittiphong Pornudomthap]([https://github.com/aucifer16/)  
 📧 Email: sittiphong@pnru.ac.th 
 
 
