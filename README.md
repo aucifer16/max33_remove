@@ -52,3 +52,13 @@ You must log in with a Google account that owns the channel or the comment in or
 Comments marked as Negative will be deleted automatically once detected
 
 This app is intended for educational/research use
+## 👨‍💻 Author & Credits
+
+Developed by [Your Name](https://github.com/your-username)  
+📧 Email: your@email.com  
+💼 Portfolio: [your-website.com](https://your-website.com)
+
+Special thanks to:
+- [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp)
+- [Streamlit](https://streamlit.io/)
+- [Google APIs Client Library for Python](https://github.com/googleapis/google-api-python-client)
