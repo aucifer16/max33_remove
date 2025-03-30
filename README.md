@@ -1,7 +1,7 @@
 # Youtube Comment Remove about Gambling (e.g., MAX33) in Thai language
 
 This project utilizes Artificial Intelligence (AI) to analyze the meaning of user comments and determine whether they are related to gambling. The analysis is performed using a Bayesian Networks Model, which has achieved a high overall accuracy rate of 92%.
-
+<img src="removeew.png"/>
 ## Pre-requisites
 
 You need two things for this to work:
