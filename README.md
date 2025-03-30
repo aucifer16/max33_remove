@@ -54,9 +54,9 @@ Comments marked as Negative will be deleted automatically once detected
 This app is intended for educational/research use
 ## 👨‍💻 Author & Credits
 
-Developed by [Your Name](https://github.com/your-username)  
-📧 Email: your@email.com  
-💼 Portfolio: [your-website.com](https://your-website.com)
+Developed by [Sittiphong Pornudomthap]([https://github.com/your-usernam](https://github.com/aucifer16/)  
+📧 Email: sittiphong@pnru.ac.th 
+
 
 Special thanks to:
 - [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp)
