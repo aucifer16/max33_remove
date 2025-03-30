@@ -29,7 +29,7 @@ Ensure your environment is:
 Then, install the remaining requirements with `pip install -r requirements.txt`.
 For the gradio demo, an additional `pip install -r requirements-demo.txt` is required.
 1. Clone the repository
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/aucifer16/max33_remove
 cd your-repo
 2. (Optional) Create a virtual environment
    python -m venv venv
@@ -37,6 +37,17 @@ venv\Scripts\activate     # Windows
 source venv/bin/activate  # macOS/Linux
 3. Install dependencies
    pip install -r requirements.txt
+
+1   * Clone this repo into ```max33_remove```:
+ ```shell
+  $ cd ComfyUI/custom_nodes
+  $ git  clone https://github.com/aucifer16/max33_remove
+ ```
+* Install dependencies:
+ ```shell
+  $ cd stable-fast-3d
+  $ pip install -r requirements.txt
+ ```
 ## Running
 
 On a machine with a valid Python installation (I tested on version 3.10.6) run `python main.py` and enter the requested information.
