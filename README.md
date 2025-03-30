@@ -13,7 +13,7 @@ You need two things for this to work:
     * Once you have finished creating the OAuth client config, dowload the secret file, name it `creds.json` and place it in the top directory of the repo.
     * Once the OAuth client config is done enable the [Youtube Data API V3](https://console.cloud.google.com/apis/library/youtube.googleapis.com).
     * How to Create client_secret.json
-2.. Go to Google Cloud Console
+2. Go to Google Cloud Console
     *Create a new project
     *Enable YouTube Data API v3
     *Go to OAuth consent screen and configure it
@@ -28,33 +28,27 @@ Ensure your environment is:
 
 Then, install the remaining requirements with `pip install -r requirements.txt`.
 For the gradio demo, an additional `pip install -r requirements-demo.txt` is required.
-1. Clone the repository
-   git clone https://github.com/aucifer16/max33_remove
-cd your-repo
-2. (Optional) Create a virtual environment
-   python -m venv venv
-venv\Scripts\activate     # Windows
-source venv/bin/activate  # macOS/Linux
-3. Install dependencies
-   pip install -r requirements.txt
+
 
 1   * Clone this repo into ```max33_remove```:
  ```shell
-  $ cd ComfyUI/custom_nodes
   $ git  clone https://github.com/aucifer16/max33_remove
  ```
-* Install dependencies:
+2 * Install dependencies:
  ```shell
-  $ cd stable-fast-3d
   $ pip install -r requirements.txt
  ```
-## Running
+## ▶️ Running the App
+ ```shell
+ .\runapp.bat
+ ```
+Then open the browser and enter a YouTube Channel ID, e.g.:
+Enter Your Channel ID, e.g.: UCzr22Ehy1VrqJfWu3-5r3....
+The app will fetch the latest 2 videos, display their comments, analyze sentiment, and delete negative ones automatically.
 
-On a machine with a valid Python installation (I tested on version 3.10.6) run `python main.py` and enter the requested information.
-* The path to your takeout folder should be the top level folder you get upon extracting the zip file.
-* If you get path errors you may need to mess around with the values in the `CommentDeleter` class.
-* I ran this in a conda environment, but venv should also work fine.  If you run on iOS or Linux some of the packages in the requirements file may be platform specific to Windows.
+##  Notes
+You must log in with a Google account that owns the channel or the comment in order to delete it
 
-## Clean-up
+Comments marked as Negative will be deleted automatically once detected
 
-Once you are done deleting your comments its best to delete your API key if you do not expect to keep using it.
+This app is intended for educational/research use
