@@ -54,7 +54,7 @@ For the gradio demo, an additional `pip install -r requirements-demo.txt` is req
 Then open the browser and enter a YouTube Channel ID, e.g.:
 Enter Your Channel ID, e.g.: UCzr22Ehy1VrqJfWu3-5r3....
 The app will fetch the latest 2 videos, display their comments, analyze sentiment, and delete negative ones automatically.
-
+<img src="run.png"/>
 ##  Notes
 You must log in with a Google account that owns the channel or the comment in order to delete it
 
