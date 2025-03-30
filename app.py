@@ -56,7 +56,7 @@ def delete_comment(youtube, comment_id):
 
 # ---------- GUI ----------
 st.title("🎬 YouTube Comment Sentiment Viewer (ภาษาไทย)")
-channel_id = st.text_input("🔗 ใส่ Channel ID (เช่น UCzr22Ehy1VrqJfWu3-5r3Lw):")
+channel_id = st.text_input("🔗 ใส่ Channel ID (เช่น UCzr22Ehy1VrqJfWu3-5rfgggfgfdg):")
 
 if channel_id:
     youtube = get_authenticated_service()
@@ -87,3 +87,12 @@ if channel_id:
                     st.error(f"💬 {comment}\n\n🆔 `{comment_id}`\n🔎 วิเคราะห์: {sentiment} → ❌ ลบไม่สำเร็จ")
             else:
                 st.success(f"💬 {comment}\n\n🆔 `{comment_id}`\n🔎 วิเคราะห์: {sentiment}")
+# ---------- Footer / Credits ----------
+st.markdown("---")
+st.markdown("## 🙏 Credits")
+st.markdown("""
+💻 Developed by [Sittiphong] )  
+🧠 Sentiment model trained with Thai data  
+🔧 Built with: Streamlit, PyThaiNLP, scikit-learn, Google APIs  
+📅 Project started: March 2025
+""")
