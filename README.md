@@ -1,11 +1,11 @@
 <img src="removeew.png"/>
-# Youtube Comment Remove about Gambling (e.g., MAX33) in Thai language
+### Youtube Comment Remove about Gambling (e.g., MAX33) in Thai language
 
 This project utilizes Artificial Intelligence (AI) to analyze the meaning of user comments and determine whether they are related to gambling. The analysis is performed using a Bayesian Networks Model, which has achieved a high overall accuracy rate of 92%.
 
 
 <img src="matirx.png"/>
-## Pre-requisites
+### Pre-requisites
 
 You need two things for this to work:
 
@@ -22,7 +22,7 @@ You need two things for this to work:
     *Go to OAuth consent screen and configure it
     *Go to Credentials > Create Credentials > OAuth client ID
     *Select Desktop App and download the client_secret.json file
-## Getting Started
+### Getting Started
 
 ### Installation
 Ensure your environment is:
