@@ -45,7 +45,9 @@ For the gradio demo, an additional `pip install -r requirements-demo.txt` is req
  ```
 
 
-##📁 Required Files
+### 📁 Required Files
+
+
 | File | Description | 
 |----------|----------|
 | app.py    | Main Streamlit app    | 
